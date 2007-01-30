@@ -1,0 +1,123 @@
+libtheora
+-------------------------------------------
+Theora is Xiph.Org's first publicly released video codec, intended
+for use within the Ogg's project's Ogg multimedia streaming system.
+Theora is derived directly from On2's VP3 codec; Currently the two are
+nearly identical, varying only in encapsulating decoder tables in the
+bitstream headers, but Theora will make use of this extra freedom
+in the future to improve over what is possible with VP3.
+
+Runtime requirements:
+  cygwin-1.5.23-2
+  libogg0-1.1.2-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.23-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.theora.org/
+
+Canonical download:
+  http://downloads.xiph.org/releases/theora/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libtheora-1.0alpha7-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libtheora-1.0alpha7-1.cygport all
+
+This will create:
+  /usr/src/libtheora-1.0alpha7-1-src.tar.bz2
+  /usr/src/libtheora-1.0alpha7-1.tar.bz2
+  /usr/src/libtheora-devel-1.0alpha7-1.tar.bz2
+  /usr/src/libtheora0-1.0alpha7-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libtheora)
+  /usr/share/doc/Cygwin/libtheora-1.0alpha7.README
+  /usr/share/doc/libtheora-1.0alpha7/color.html
+  /usr/share/doc/libtheora-1.0alpha7/COPYING
+  /usr/share/doc/libtheora-1.0alpha7/doxygen-build.stamp
+  /usr/share/doc/libtheora-1.0alpha7/html/annotated.html
+  /usr/share/doc/libtheora-1.0alpha7/html/dirs.html
+  /usr/share/doc/libtheora-1.0alpha7/html/dir_000000.html
+  /usr/share/doc/libtheora-1.0alpha7/html/dir_000001.html
+  /usr/share/doc/libtheora-1.0alpha7/html/doxygen.css
+  /usr/share/doc/libtheora-1.0alpha7/html/doxygen.png
+  /usr/share/doc/libtheora-1.0alpha7/html/files.html
+  /usr/share/doc/libtheora-1.0alpha7/html/functions.html
+  /usr/share/doc/libtheora-1.0alpha7/html/functions_vars.html
+  /usr/share/doc/libtheora-1.0alpha7/html/globals.html
+  /usr/share/doc/libtheora-1.0alpha7/html/globals_defs.html
+  /usr/share/doc/libtheora-1.0alpha7/html/globals_enum.html
+  /usr/share/doc/libtheora-1.0alpha7/html/globals_eval.html
+  /usr/share/doc/libtheora-1.0alpha7/html/globals_func.html
+  /usr/share/doc/libtheora-1.0alpha7/html/globals_type.html
+  /usr/share/doc/libtheora-1.0alpha7/html/index.html
+  /usr/share/doc/libtheora-1.0alpha7/html/structtheora__comment.html
+  /usr/share/doc/libtheora-1.0alpha7/html/structtheora__info.html
+  /usr/share/doc/libtheora-1.0alpha7/html/structtheora__state.html
+  /usr/share/doc/libtheora-1.0alpha7/html/structyuv__buffer.html
+  /usr/share/doc/libtheora-1.0alpha7/html/theora_8h-source.html
+  /usr/share/doc/libtheora-1.0alpha7/html/theora_8h.html
+  /usr/share/doc/libtheora-1.0alpha7/latex/annotated.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/dirs.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/dir_000000.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/dir_000001.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/doxygen.sty
+  /usr/share/doc/libtheora-1.0alpha7/latex/files.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/Helvetica.ttf
+  /usr/share/doc/libtheora-1.0alpha7/latex/index.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/Makefile
+  /usr/share/doc/libtheora-1.0alpha7/latex/refman.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/structtheora__comment.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/structtheora__info.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/structtheora__state.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/structyuv__buffer.tex
+  /usr/share/doc/libtheora-1.0alpha7/latex/theora_8h.tex
+  /usr/share/doc/libtheora-1.0alpha7/README
+  /usr/share/doc/libtheora-1.0alpha7/vp3-format.txt
+
+(libtheora0)
+  /usr/bin/cygtheora-0.dll
+
+(libtheora-devel)
+  /usr/include/theora/theora.h
+  /usr/lib/libtheora.a
+  /usr/lib/libtheora.dll.a
+  /usr/lib/libtheora.la
+  /usr/lib/pkgconfig/theora.pc
+
+------------------
+
+Port Notes:
+
+----- version 1.0alpha7-1 -----
+Version bump, built with cygport.
+
+----- version 1.0alpha5-1 -----
+Version bump.
+Package now installs API documentation.
+
+----- version 1.0alpha3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
