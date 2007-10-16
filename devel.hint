@@ -1,5 +1,5 @@
 category: Video Libs
-requires: cygwin libogg-devel
+requires: cygwin libtheora0 libogg-devel
 external-source: libtheora
 sdesc: "Xiph.Org Theora video codec (development)"
 ldesc: "Theora is Xiph.Org's first publicly released video codec, intended
