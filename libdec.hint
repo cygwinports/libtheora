@@ -1,7 +1,7 @@
 category: Libs Video
-requires: cygwin libogg0
+requires: cygwin
 external-source: libtheora
-sdesc: "Xiph.Org Theora video codec (unified runtime)"
+sdesc: "Xiph.Org Theora video codec (decoder runtime)"
 ldesc: "Theora is Xiph.Org's first publicly released video codec, intended
 for use within the Ogg's project's Ogg multimedia streaming system.
 Theora is derived directly from On2's VP3 codec; Currently the two are

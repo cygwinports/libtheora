@@ -33,80 +33,138 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libtheora-1.0beta2-1-src.tar.bz2
+  unpack libtheora-1.0beta3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libtheora-1.0beta2-1.cygport all
+  cygport ./libtheora-1.0beta3-1.cygport all
 
 This will create:
-  /usr/src/libtheora-1.0beta2-1-src.tar.bz2
-  /usr/src/libtheora-1.0beta2-1.tar.bz2
-  /usr/src/libtheora-devel-1.0beta2-1.tar.bz2
-  /usr/src/libtheora0-1.0beta2-1.tar.bz2
+  /usr/src/libtheora-1.0beta3-1-src.tar.bz2
+  /usr/src/libtheora-1.0beta3-1.tar.bz2
+  /usr/src/libtheora-devel-1.0beta3-1.tar.bz2
+  /usr/src/libtheora0-1.0beta3-1.tar.bz2
+  /usr/src/libtheoradec1-1.0beta3-1.tar.bz2
+  /usr/src/libtheoraenc1-1.0beta3-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
 (libtheora)
-  /usr/share/doc/Cygwin/libtheora-1.0beta2.README
-  /usr/share/doc/libtheora-1.0beta2/color.html
-  /usr/share/doc/libtheora-1.0beta2/COPYING
-  /usr/share/doc/libtheora-1.0beta2/doxygen-build.stamp
-  /usr/share/doc/libtheora-1.0beta2/html/annotated.html
-  /usr/share/doc/libtheora-1.0beta2/html/dirs.html
-  /usr/share/doc/libtheora-1.0beta2/html/dir_000000.html
-  /usr/share/doc/libtheora-1.0beta2/html/dir_000001.html
-  /usr/share/doc/libtheora-1.0beta2/html/doxygen.css
-  /usr/share/doc/libtheora-1.0beta2/html/doxygen.png
-  /usr/share/doc/libtheora-1.0beta2/html/files.html
-  /usr/share/doc/libtheora-1.0beta2/html/functions.html
-  /usr/share/doc/libtheora-1.0beta2/html/functions_vars.html
-  /usr/share/doc/libtheora-1.0beta2/html/globals.html
-  /usr/share/doc/libtheora-1.0beta2/html/globals_defs.html
-  /usr/share/doc/libtheora-1.0beta2/html/globals_enum.html
-  /usr/share/doc/libtheora-1.0beta2/html/globals_eval.html
-  /usr/share/doc/libtheora-1.0beta2/html/globals_func.html
-  /usr/share/doc/libtheora-1.0beta2/html/globals_type.html
-  /usr/share/doc/libtheora-1.0beta2/html/index.html
-  /usr/share/doc/libtheora-1.0beta2/html/structtheora__comment.html
-  /usr/share/doc/libtheora-1.0beta2/html/structtheora__info.html
-  /usr/share/doc/libtheora-1.0beta2/html/structtheora__state.html
-  /usr/share/doc/libtheora-1.0beta2/html/structyuv__buffer.html
-  /usr/share/doc/libtheora-1.0beta2/html/theora_8h-source.html
-  /usr/share/doc/libtheora-1.0beta2/html/theora_8h.html
-  /usr/share/doc/libtheora-1.0beta2/latex/annotated.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/dirs.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/dir_000000.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/dir_000001.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/doxygen.sty
-  /usr/share/doc/libtheora-1.0beta2/latex/files.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/Helvetica.ttf
-  /usr/share/doc/libtheora-1.0beta2/latex/index.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/Makefile
-  /usr/share/doc/libtheora-1.0beta2/latex/refman.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/structtheora__comment.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/structtheora__info.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/structtheora__state.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/structyuv__buffer.tex
-  /usr/share/doc/libtheora-1.0beta2/latex/theora_8h.tex
-  /usr/share/doc/libtheora-1.0beta2/README
-  /usr/share/doc/libtheora-1.0beta2/vp3-format.txt
+  /usr/share/doc/libtheora-1.0beta3/AUTHORS
+  /usr/share/doc/libtheora-1.0beta3/COPYING
+  /usr/share/doc/libtheora-1.0beta3/Changes
+  /usr/share/doc/libtheora-1.0beta3/LICENSE
+  /usr/share/doc/libtheora-1.0beta3/README
+  /usr/share/doc/libtheora-1.0beta3/color.html
+  /usr/share/doc/libtheora-1.0beta3/doxygen-build.stamp
+  /usr/share/doc/libtheora-1.0beta3/draft-ietf-avt-rtp-theora-00.txt
+  /usr/share/doc/libtheora-1.0beta3/draft-ietf-avt-rtp-theora-00.xml
+  /usr/share/doc/libtheora-1.0beta3/html/annotated.html
+  /usr/share/doc/libtheora-1.0beta3/html/codec_8h-source.html
+  /usr/share/doc/libtheora-1.0beta3/html/codec_8h.html
+  /usr/share/doc/libtheora-1.0beta3/html/doxygen.css
+  /usr/share/doc/libtheora-1.0beta3/html/doxygen.png
+  /usr/share/doc/libtheora-1.0beta3/html/files.html
+  /usr/share/doc/libtheora-1.0beta3/html/functions.html
+  /usr/share/doc/libtheora-1.0beta3/html/functions_vars.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals_defs.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals_enum.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals_eval.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals_func.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals_type.html
+  /usr/share/doc/libtheora-1.0beta3/html/globals_vars.html
+  /usr/share/doc/libtheora-1.0beta3/html/group__basefuncs.html
+  /usr/share/doc/libtheora-1.0beta3/html/group__decfuncs.html
+  /usr/share/doc/libtheora-1.0beta3/html/group__encfuncs.html
+  /usr/share/doc/libtheora-1.0beta3/html/group__oldfuncs.html
+  /usr/share/doc/libtheora-1.0beta3/html/index.html
+  /usr/share/doc/libtheora-1.0beta3/html/modules.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__comment.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__huff__code.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__img__plane.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__info.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__quant__info.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__quant__ranges.html
+  /usr/share/doc/libtheora-1.0beta3/html/structth__stripe__callback.html
+  /usr/share/doc/libtheora-1.0beta3/html/structtheora__comment.html
+  /usr/share/doc/libtheora-1.0beta3/html/structtheora__info.html
+  /usr/share/doc/libtheora-1.0beta3/html/structtheora__state.html
+  /usr/share/doc/libtheora-1.0beta3/html/structyuv__buffer.html
+  /usr/share/doc/libtheora-1.0beta3/html/tab_b.gif
+  /usr/share/doc/libtheora-1.0beta3/html/tab_l.gif
+  /usr/share/doc/libtheora-1.0beta3/html/tab_r.gif
+  /usr/share/doc/libtheora-1.0beta3/html/tabs.css
+  /usr/share/doc/libtheora-1.0beta3/html/theora_8h-source.html
+  /usr/share/doc/libtheora-1.0beta3/html/theora_8h.html
+  /usr/share/doc/libtheora-1.0beta3/html/theoradec_8h-source.html
+  /usr/share/doc/libtheora-1.0beta3/html/theoradec_8h.html
+  /usr/share/doc/libtheora-1.0beta3/html/theoraenc_8h-source.html
+  /usr/share/doc/libtheora-1.0beta3/html/theoraenc_8h.html
+  /usr/share/doc/libtheora-1.0beta3/latex/FreeSans.ttf
+  /usr/share/doc/libtheora-1.0beta3/latex/Makefile
+  /usr/share/doc/libtheora-1.0beta3/latex/annotated.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/codec_8h.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/doxygen.sty
+  /usr/share/doc/libtheora-1.0beta3/latex/files.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/group__basefuncs.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/group__decfuncs.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/group__encfuncs.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/group__oldfuncs.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/index.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/modules.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/refman.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__comment.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__huff__code.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__img__plane.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__info.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__quant__info.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__quant__ranges.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structth__stripe__callback.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structtheora__comment.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structtheora__info.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structtheora__state.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/structyuv__buffer.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/theora_8h.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/theoradec_8h.tex
+  /usr/share/doc/libtheora-1.0beta3/latex/theoraenc_8h.tex
+  /usr/share/doc/libtheora-1.0beta3/vp3-format.txt
 
 (libtheora0)
   /usr/bin/cygtheora-0.dll
 
+(libtheoradec1)
+  /usr/bin/cygtheoradec-1.dll
+
+(libtheoraenc1)
+  /usr/bin/cygtheoraenc-1.dll
+
 (libtheora-devel)
+  /usr/include/theora/codec.h
   /usr/include/theora/theora.h
+  /usr/include/theora/theoradec.h
+  /usr/include/theora/theoraenc.h
   /usr/lib/libtheora.a
   /usr/lib/libtheora.dll.a
   /usr/lib/libtheora.la
+  /usr/lib/libtheoradec.a
+  /usr/lib/libtheoradec.dll.a
+  /usr/lib/libtheoradec.la
+  /usr/lib/libtheoraenc.a
+  /usr/lib/libtheoraenc.dll.a
+  /usr/lib/libtheoraenc.la
   /usr/lib/pkgconfig/theora.pc
+  /usr/lib/pkgconfig/theoradec.pc
+  /usr/lib/pkgconfig/theoraenc.pc
 
 ------------------
 
 Port Notes:
+
+----- version 1.0beta3-1 -----
+Version bump.
 
 ----- version 1.0beta2-1 -----
 Version bump.

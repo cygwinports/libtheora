@@ -1,0 +1,14 @@
+DESCRIPTION="Xiph.org Theora video codec"
+HOMEPAGE="http://www.theora.org/"
+SRC_URI="http://downloads.xiph.org/releases/theora/${P}.tar.gz"
+
+aabi=0
+dabi=1
+eabi=1
+PKG_NAMES="${PN} ${PN}${aabi} ${PN}dec${dabi} ${PN}enc${eabi} ${PN}-devel"
+PKG_HINTS="setup lib libdec libenc devel"
+PKG_CONTENTS[0]='usr/share/'
+PKG_CONTENTS[1]="usr/bin/cygtheora-${aabi}.dll"
+PKG_CONTENTS[2]="usr/bin/cygtheoradec-${dabi}.dll"
+PKG_CONTENTS[3]="usr/bin/cygtheoraenc-${eabi}.dll"
+PKG_CONTENTS[4]='usr/include/ usr/lib/'
