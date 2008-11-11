@@ -1,6 +1,6 @@
-category: Video Doc
+category: Video
 requires: libtheora0 libtheora-devel
-sdesc: "Xiph.Org Theora video codec (API documentation)"
+sdesc: "Xiph.Org Theora video codec (source)"
 ldesc: "Theora is Xiph.Org's first publicly released video codec, intended
 for use within the Ogg's project's Ogg multimedia streaming system.
 Theora is derived directly from On2's VP3 codec; Currently the two are

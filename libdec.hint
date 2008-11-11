@@ -1,4 +1,4 @@
-category: Libs Video
+category: Video
 requires: cygwin
 external-source: libtheora
 sdesc: "Xiph.Org Theora video codec (decoder runtime)"

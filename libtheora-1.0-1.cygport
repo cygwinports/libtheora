@@ -1,0 +1,15 @@
+DESCRIPTION="Xiph.org Theora video codec"
+HOMEPAGE="http://www.theora.org/"
+SRC_URI="http://downloads.xiph.org/releases/theora/${P}.tar.bz2"
+PATCH_URI="1.0beta3-no-undefined.patch"
+
+PKG_NAMES="${PN} ${PN}0 ${PN}dec1 ${PN}enc1 ${PN}-devel"
+PKG_HINTS="setup lib libdec libenc devel"
+libtheora_CONTENTS=	# empty
+libtheora0_CONTENTS="--exclude=html --exclude=latex usr/bin/cygtheora-0.dll usr/share/doc/"
+libtheoradec1_CONTENTS="usr/bin/cygtheoradec-1.dll"
+libtheoraenc1_CONTENTS="usr/bin/cygtheoraenc-1.dll"
+libtheora_devel_CONTENTS="usr/include/ usr/lib/ usr/share/doc/${P}/html/"
+PKG_IGNORE="usr/share/doc/${P}/latex/"
+
+ACLOCAL_FLAGS="-I m4"
