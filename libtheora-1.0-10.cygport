@@ -9,7 +9,8 @@ libtheora_CONTENTS=	# empty
 libtheora0_CONTENTS="--exclude=html --exclude=latex usr/bin/cygtheora-0.dll usr/share/doc/"
 libtheoradec1_CONTENTS="usr/bin/cygtheoradec-1.dll"
 libtheoraenc1_CONTENTS="usr/bin/cygtheoraenc-1.dll"
-libtheora_devel_CONTENTS="usr/include/ usr/lib/ usr/share/doc/${P}/html/"
-PKG_IGNORE="usr/share/doc/${P}/latex/"
+libtheora_devel_CONTENTS="usr/include/ usr/lib/ usr/share/doc/${PN}/html/"
+PKG_IGNORE="usr/share/doc/${PN}/latex/"
 
 ACLOCAL_FLAGS="-I m4"
+MAKEOPTS+=" docdir=/usr/share/doc/${PN}"
