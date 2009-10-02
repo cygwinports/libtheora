@@ -1,7 +1,7 @@
 DESCRIPTION="Xiph.org Theora video codec"
 HOMEPAGE="http://www.theora.org/"
 SRC_URI="http://downloads.xiph.org/releases/theora/${P}.tar.bz2"
-PATCH_URI="1.0beta3-no-undefined.patch"
+PATCH_URI="1.1.1-no-undefined.patch"
 
 PKG_NAMES="${PN} ${PN}0 ${PN}dec1 ${PN}enc1 ${PN}-devel"
 PKG_HINTS="setup lib libdec libenc devel"

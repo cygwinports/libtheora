@@ -1,0 +1,11 @@
+--- origsrc/libtheora-1.1.1/configure.ac	2009-10-01 13:00:33.000000000 -0500
++++ src/libtheora-1.1.1/configure.ac	2009-10-01 21:29:25.623579500 -0500
+@@ -214,7 +214,7 @@ THENC_VERSION_ARG=""
+ TH_VERSION_ARG=""
+ if test "x$lt_cv_prog_gnu_ld" = "xyes"; then
+  case "$target_os" in
+-  *mingw*)
++  *mingw* | cygwin* )
+     THEORA_LDFLAGS="$THEORA_LDFLAGS -no-undefined"
+     THDEC_VERSION_ARG="-export-symbols \$(top_srcdir)/win32/xmingw32/libtheoradec-all.def"
+     THENC_VERSION_ARG="-export-symbols \$(top_srcdir)/win32/xmingw32/libtheoraenc-all.def"

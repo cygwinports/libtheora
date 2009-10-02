@@ -8,20 +8,20 @@ bitstream headers, but Theora will make use of this extra freedom
 in the future to improve over what is possible with VP3.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-61
   libgcc1-4.3.2-2
   libogg0-1.1.3-1
 
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  gawk-3.1.6-2
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  gawk-3.1.7-1
   gcc4-core-4.3.2-2
-  libtool-2.2.6a-2
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical homepage:
@@ -33,106 +33,26 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libtheora-1.0-1-src.tar.bz2
+  unpack libtheora-1.1.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libtheora-1.0-1.cygport all
+  cygport ./libtheora-1.1.1-X.cygport all
 
 This will create:
-  /usr/src/libtheora-1.0-1-src.tar.bz2
-  /usr/src/libtheora-1.0-1.tar.bz2
-  /usr/src/libtheora-devel-1.0-1.tar.bz2
-  /usr/src/libtheora0-1.0-1.tar.bz2
-  /usr/src/libtheoradec1-1.0-1.tar.bz2
-  /usr/src/libtheoraenc1-1.0-1.tar.bz2
+  /usr/src/libtheora-1.1.1-X-src.tar.bz2
+  /usr/src/libtheora-1.1.1-X.tar.bz2
+  /usr/src/libtheora-devel-1.1.1-X.tar.bz2
+  /usr/src/libtheora0-1.1.1-X.tar.bz2
+  /usr/src/libtheoradec1-1.1.1-X.tar.bz2
+  /usr/src/libtheoraenc1-1.1.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libtheora0)
-  /usr/bin/cygtheora-0.dll
-  /usr/share/doc/libtheora/AUTHORS
-  /usr/share/doc/libtheora/COPYING
-  /usr/share/doc/libtheora/Changes
-  /usr/share/doc/libtheora/LICENSE
-  /usr/share/doc/libtheora/README
-  /usr/share/doc/libtheora/color.html
-  /usr/share/doc/libtheora/doxygen-build.stamp
-  /usr/share/doc/libtheora/draft-ietf-avt-rtp-theora-00.txt
-  /usr/share/doc/libtheora/draft-ietf-avt-rtp-theora-00.xml
-  /usr/share/doc/libtheora/vp3-format.txt
-
-(libtheoradec1)
-  /usr/bin/cygtheoradec-1.dll
-
-(libtheoraenc1)
-  /usr/bin/cygtheoraenc-1.dll
-
-(libtheora-devel)
-  /usr/include/theora/codec.h
-  /usr/include/theora/theora.h
-  /usr/include/theora/theoradec.h
-  /usr/include/theora/theoraenc.h
-  /usr/lib/libtheora.a
-  /usr/lib/libtheora.dll.a
-  /usr/lib/libtheora.la
-  /usr/lib/libtheoradec.a
-  /usr/lib/libtheoradec.dll.a
-  /usr/lib/libtheoradec.la
-  /usr/lib/libtheoraenc.a
-  /usr/lib/libtheoraenc.dll.a
-  /usr/lib/libtheoraenc.la
-  /usr/lib/pkgconfig/theora.pc
-  /usr/lib/pkgconfig/theoradec.pc
-  /usr/lib/pkgconfig/theoraenc.pc
-  /usr/share/doc/libtheora/html/annotated.html
-  /usr/share/doc/libtheora/html/codec_8h-source.html
-  /usr/share/doc/libtheora/html/codec_8h.html
-  /usr/share/doc/libtheora/html/doxygen.css
-  /usr/share/doc/libtheora/html/doxygen.png
-  /usr/share/doc/libtheora/html/files.html
-  /usr/share/doc/libtheora/html/functions.html
-  /usr/share/doc/libtheora/html/functions_vars.html
-  /usr/share/doc/libtheora/html/globals.html
-  /usr/share/doc/libtheora/html/globals_defs.html
-  /usr/share/doc/libtheora/html/globals_enum.html
-  /usr/share/doc/libtheora/html/globals_eval.html
-  /usr/share/doc/libtheora/html/globals_func.html
-  /usr/share/doc/libtheora/html/globals_type.html
-  /usr/share/doc/libtheora/html/globals_vars.html
-  /usr/share/doc/libtheora/html/group__basefuncs.html
-  /usr/share/doc/libtheora/html/group__decfuncs.html
-  /usr/share/doc/libtheora/html/group__encfuncs.html
-  /usr/share/doc/libtheora/html/group__oldfuncs.html
-  /usr/share/doc/libtheora/html/index.html
-  /usr/share/doc/libtheora/html/modules.html
-  /usr/share/doc/libtheora/html/structth__comment.html
-  /usr/share/doc/libtheora/html/structth__huff__code.html
-  /usr/share/doc/libtheora/html/structth__img__plane.html
-  /usr/share/doc/libtheora/html/structth__info.html
-  /usr/share/doc/libtheora/html/structth__quant__info.html
-  /usr/share/doc/libtheora/html/structth__quant__ranges.html
-  /usr/share/doc/libtheora/html/structth__stripe__callback.html
-  /usr/share/doc/libtheora/html/structtheora__comment.html
-  /usr/share/doc/libtheora/html/structtheora__info.html
-  /usr/share/doc/libtheora/html/structtheora__state.html
-  /usr/share/doc/libtheora/html/structyuv__buffer.html
-  /usr/share/doc/libtheora/html/tab_b.gif
-  /usr/share/doc/libtheora/html/tab_l.gif
-  /usr/share/doc/libtheora/html/tab_r.gif
-  /usr/share/doc/libtheora/html/tabs.css
-  /usr/share/doc/libtheora/html/theora_8h-source.html
-  /usr/share/doc/libtheora/html/theora_8h.html
-  /usr/share/doc/libtheora/html/theoradec_8h-source.html
-  /usr/share/doc/libtheora/html/theoradec_8h.html
-  /usr/share/doc/libtheora/html/theoraenc_8h-source.html
-  /usr/share/doc/libtheora/html/theoraenc_8h.html
-
-------------------
-
 Port Notes:
+
+----- version 1.1.1-1 -----
+Version bump.
 
 ----- version 1.0-10 -----
 Initial release for Cygwin 1.7.
